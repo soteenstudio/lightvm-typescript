@@ -5,17 +5,17 @@ const vm = new LightVM({ caps: [Capability.Control, Capability.Observe] })
   .withExplain(true);
 
 const bytecode = [
-  ["val", "result"],
-  ["push", 5],
-  ["push", 5],
-  ["mul", "int"],
-  ["push", 10],
-  ["sub", "int"],
-  ["set", "result"],
-  ["push", "Result is: "],
-  ["get", "result"],
-  ["concat"],
-  ["println"]
+  ['val', 'result'],
+  ['push', 5],
+  ['push', 5],
+  ['mul', 'int'],
+  ['push', 10],
+  ['sub', 'int'],
+  ['set', 'result'],
+  ['push', 'Result is: '],
+  ['get', 'result'],
+  ['concat'],
+  ['println'],
 ];
 
 const tools = vm.tools();

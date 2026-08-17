@@ -7,7 +7,7 @@
     "dev": "node ./build.dev.js",
     "build": "node ./build.js",
     "typecheck": "npx tsc",
-    "lint": "eslint .",
+    "lint": "eslint src/",
     "format": "prettier --write \"src/**/*.{ts,js,json,md}\""
   },
   "dependencies": {
@@ -19,6 +19,7 @@
     "esbuild": "0.28.2",
     "eslint": "10.8.1",
     "prettier": "3.9.6",
-    "typescript": "7.0.2"
+    "typescript": "6.0.3",
+    "typescript-eslint": "8.67.0"
   }
 }
