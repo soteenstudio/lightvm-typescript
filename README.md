@@ -41,3 +41,5 @@ Before running any commands, make sure you have installed all necessary dependen
     ```bash
     npm run tests
     ```
+
+> *Happy climbing!* 🚀
