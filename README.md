@@ -5,6 +5,12 @@ This template is created to make it easier for developers when first starting to
  - **[Official Documentation](https://lightvm.vercel.app)**
 
 ## Usage
+Before running any commands, make sure you have installed all necessary dependencies required by this project:
+
+ - Install all required dependencies first:
+    ```bash
+    npm install
+    ```
 
  - Command for **debug build**:
     ```bash
