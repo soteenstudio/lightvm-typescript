@@ -2,7 +2,7 @@ import esbuild from 'esbuild';
 
 async function build() {
   try {
-    await esbuild.build({
+    const context = await esbuild.context({
       entryPoints: ['./src/index.ts'],
       bundle: true,
       outdir: './dist',
@@ -10,10 +10,12 @@ async function build() {
       target: 'es2022',
       format: 'esm',
       sourcemap: true,
-      minify: true,
+      minify: false,
       logLevel: 'info',
     });
-    console.log('Build success');
+
+    await context.watch();
+    console.log('Watching for changes...');
   } catch (error) {
     console.error('Build error:', error);
     process.exit(1);
