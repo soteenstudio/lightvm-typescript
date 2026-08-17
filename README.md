@@ -42,4 +42,6 @@ Before running any commands, make sure you have installed all necessary dependen
     npm run tests
     ```
 
+This template repository is licensed under the [MIT License](./LICENSE)
+
 > *Happy climbing!* 🚀
