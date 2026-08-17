@@ -39,7 +39,7 @@ Before running any commands, make sure you have installed all necessary dependen
 
  - Command for **testing**:
     ```bash
-    npm run tests
+    npm run test
     ```
 
 This template repository is licensed under the [MIT License](./LICENSE)

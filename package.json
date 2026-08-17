@@ -3,7 +3,7 @@
   "description": "This template is created to make it easier for developers when first starting to use LightVM",
   "type": "module",
   "scripts": {
-    "tests": "node ./dist/index.js",
+    "test": "node ./dist/index.js",
     "dev": "node ./build.dev.js",
     "build": "node ./build.js",
     "typecheck": "npx tsc",
@@ -11,14 +11,14 @@
     "format": "prettier --write \"src/**/*.{ts,js,json,md}\""
   },
   "dependencies": {
-    "lightvm": "^0.1.0-alpha.9"
+    "lightvm": "0.1.0-alpha.9"
   },
   "devDependencies": {
-    "@eslint/js": "^10.0.1",
-    "@types/node": "^26.2.0",
-    "esbuild": "^0.28.2",
-    "eslint": "^10.8.1",
-    "prettier": "^3.9.6",
-    "typescript": "^7.0.2"
+    "@eslint/js": "10.0.1",
+    "@types/node": "26.2.0",
+    "esbuild": "0.28.2",
+    "eslint": "10.8.1",
+    "prettier": "3.9.6",
+    "typescript": "7.0.2"
   }
 }
