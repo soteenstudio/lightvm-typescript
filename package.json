@@ -9,8 +9,11 @@
     "typecheck": "npx tsc"
   },
   "dependencies": {
+    "lightvm": "^0.1.0-alpha.9"
+  },
+  "devDependencies": {
+    "@types/node": "^26.2.0",
     "esbuild": "^0.28.2",
-    "lightvm": "^0.1.0-alpha.9",
     "typescript": "^7.0.2"
   }
 }
