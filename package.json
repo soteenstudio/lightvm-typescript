@@ -1,0 +1,16 @@
+{
+  "name": "lightvm-ts",
+  "description": "Template for LightVM v0.1.0-alpha.9",
+  "type": "module",
+  "scripts": {
+    "tests": "node ./dist/index.js",
+    "dev": "node ./build.dev.js",
+    "build": "node ./build.js",
+    "typecheck": "npx tsc"
+  },
+  "dependencies": {
+    "esbuild": "^0.28.2",
+    "lightvm": "^0.1.0-alpha.9",
+    "typescript": "^7.0.2"
+  }
+}
