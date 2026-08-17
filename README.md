@@ -27,6 +27,16 @@ Before running any commands, make sure you have installed all necessary dependen
     npm run typecheck
     ```
 
+ - Command for **linting**:
+    ```bash
+    npm run lint
+    ```
+
+ - Command for **formatting**:
+    ```bash
+    npm run format
+    ```
+
  - Command for **testing**:
     ```bash
     npm run tests

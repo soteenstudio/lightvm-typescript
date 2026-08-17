@@ -6,7 +6,9 @@
     "tests": "node ./dist/index.js",
     "dev": "node ./build.dev.js",
     "build": "node ./build.js",
-    "typecheck": "npx tsc"
+    "typecheck": "npx tsc",
+    "lint": "eslint .",
+    "format": "prettier --write \"src/**/*.{ts,js,json,md}\""
   },
   "dependencies": {
     "lightvm": "^0.1.0-alpha.9"
