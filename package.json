@@ -1,6 +1,6 @@
 {
   "name": "lightvm-ts",
-  "description": "Template for LightVM v0.1.0-alpha.9",
+  "description": "This template is created to make it easier for developers when first starting to use LightVM",
   "type": "module",
   "scripts": {
     "tests": "node ./dist/index.js",
